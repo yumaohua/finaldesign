@@ -1,0 +1,25 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-std=c++17",
+      "-O2",
+      "-fopenmp",
+      "-Iinclude",
+      "-DEIGEN_USE_LAPACKE",
+      "-I/home/yu/code/finaldesign/include/eigen-3.4.0",
+      "-I/home/yu/code/finaldesign/include/eigen-3.4.0/spectra",
+      "-c",
+      "-I",
+      "/opt/intel/oneapi/mkl/2025.1/include",
+      "-I",
+      "/opt/intel/oneapi/mkl/2025.1/include",
+      "-o",
+      "build/test.o",
+      "src/test.cpp"
+    ],
+    "directory": "/home/yu/code/finaldesign",
+    "file": "/home/yu/code/finaldesign/src/test.cpp",
+    "output": "/home/yu/code/finaldesign/build/test.o"
+  }
+]
